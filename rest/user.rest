@@ -1,0 +1,77 @@
+### Get All Users
+GET  http://localhost:8080/users
+
+### Get User by username
+GET  http://localhost:8080/user/CP3
+
+### Get User by emailaddress
+GET  http://localhost:8080/users/user/email/lssabj@poc.com
+
+### POST Add Kevin Durant
+POST  http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "firstName": "",
+    "lastName": "Durant",
+    "userName": "KD",
+    "emailAddres":"kdpoc.com"
+}
+
+
+### POST Add Stephen Curry
+POST  http://localhost:8080/users/
+Content-Type: application/json
+
+{
+    "firstName": "Stephen",
+    "lastName": "Curry",
+    "userName": "StephCurry",
+    "emailAddress": "StephCurry@poc.com"
+}
+
+
+### POST Add Lebron James
+POST  http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "firstName": "Lebron",
+    "lastName": "James",
+    "userName": "LBJ",
+    "emailAddress": "lbj@poc.com"
+}
+
+### POST Add Chris Paul
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "firstName": "Chris",
+    "lastName": "Paul",
+    "userName": "CP3",
+    "emailAddress": "cp3@poc.com"
+}
+
+### PUT Update CP3
+PUT http://localhost:8080/users/user/CP3
+Content-Type: application/json
+
+{
+    "firstName": "Chris",
+    "lastName": "Paul",
+    "emailAddress": "cp3@nba.com"
+}
+
+### PUT Update LBJ
+PUT http://localhost:8080/users/user/LBJ
+Content-Type: application/json
+
+{
+    "firstName": "Lebron",
+    "lastName": "James",
+    "emailAddress": "lbj@nba.com"
+}
+
+### Delete by userName
+DELETE http://localhost:8080/users/user/KD

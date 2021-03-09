@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "9d26069a-6243-496c-87d3-16f54cded557",
+      "firstName ": "Lebron",
+      "lastName": "James",
+      "username": "LBJ",
+      "email": "lbj@poc.com"
+    },
+    {
+      "id": "6a6dcc40-63b5-4c28-ac42-83e7b2d23eb2",
+      "firstName ": "Steph",
+      "lastName": "Curry",
+      "username": "stephCurry",
+      "email": "stephc@poc.com"
+    }
+  ],
+  "user": [
+    {
+      "firstName": "Stephen",
+      "lastName": "Curry",
+      "userName": "StephCurry",
+      "emailAddress": "StephCurry@poc.com"
+    },
+    {
+      "firstName": "Lebron",
+      "lastName": "James",
+      "userName": "LBJ",
+      "emailAddress": "lbj@nba.com"
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Paul",
+      "userName": "CP3",
+      "emailAddress": "cp3@nba.com"
+    }
+  ]
+}
